@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
-})
+}) 
 
 mongoose
     .connect(process.env.MONGO_URI)
